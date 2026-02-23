@@ -173,7 +173,7 @@ After a few seconds, all three services appear in the Eureka dashboard under the
 | DoctorService     | GET /location         | `"doctor-service:8081"`      |
 | DeseasesService   | GET /deseases         | `"list of deseases"`         |
 | DeseasesService   | GET /location         | `"deseases-service:8082"`    |
-| PatientService    | GET /doctors          | `"list of doctors"`          |
+| PatientService    | GET /patients         | `"list of patients"`          |
 | PatientService    | GET /location         | `"patient-service:8083"`     |
 | EurekaServer      | GET / (dashboard)     | Eureka web UI                |
 | EurekaServer      | GET /eureka/apps      | All registered instances     |
