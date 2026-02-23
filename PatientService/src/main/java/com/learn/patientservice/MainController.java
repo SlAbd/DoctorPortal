@@ -14,9 +14,9 @@ public class MainController {
     @Value("${server.port: no port}")
     private String port ;
 
-    @GetMapping("/doctors")
-    public String doctors() {
-        return "list of doctors";
+    @GetMapping("/patients")
+    public String patients() {
+        return "list of patients";
     }
 
     @GetMapping("/location")
